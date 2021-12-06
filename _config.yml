@@ -16,9 +16,7 @@ execute:
 only_build_toc_files: true
 
 launch_buttons:
-  notebook_interface: "jupyterlab"
-  thebe: true
-  binderhub_url: https://mybinder.org/v2/gh/anumazam/anumazam.github.io/
+  colab_url: "https://colab.research.google.com"
 
 # Define the name of the latex output file for PDF builds
 #latex:
@@ -43,7 +41,7 @@ parse:
 repository:
   url: https://www.github.com/anumazam/anumazam.github.io  # Online location of your book
   # path_to_book: lab_webpage  # Optional path to your book, relative to the repository root
-  branch: master  # Which branch of the repository should be used when creating links (optional)
+  branch: main  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
