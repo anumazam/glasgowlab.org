@@ -42,13 +42,11 @@
     <script src="_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
+        const thebe_selector = ".thebe,.cell"
+        const thebe_selector_input = "pre,.cell_input div.highlight"
+        const thebe_selector_output = ".output,.cell_output"
     </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
@@ -124,7 +122,7 @@
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="7_LacI_demo.html">
-   Explore HDX/MS data for LacI peptides.
+   Explore HDX/MS data for LacI
   </a>
  </li>
 </ul>
@@ -224,10 +222,28 @@ We welcome applicants from all fields of science and engineering, and all walks 
 </div>
 <div class="card-body docutils">
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/anum.jpg"><img alt="anum-roadtripping" class="bg-primary mb-1 align-left" src="_images/anum.jpg" style="width: 250px;" /></a>
-<p class="card-text">I am an incoming assistant professor at Columbia University Medical Center in the <a class="reference external" href="https://www.biochem.cuimc.columbia.edu/">Department of Biochemistry and Molecular Biophysics</a>. I grew up on the Jersey Shore. As an undergraduate in the <a class="reference external" href="https://graciaslab.johnshopkins.edu/">Gracias Lab</a>, I built self-folding micro-structures. In graduate school, I studied nature’s most beautiful self-folding systems – proteins – in the <a class="reference external" href="https://dtelab.northwestern.edu/">DTE Lab</a> at UC Berkeley. For the last few years, I moved into computational biophysics to design new proteins for artifical functions as a postdoctoral fellow in the <a class="reference external" href="http://kortemmelab.ucsf.edu/">Kortemme Lab</a> at UCSF. I am so pumped to do protein science in NYC!!</p>
+<p class="card-text">I am an assistant professor at Columbia University Medical Center in the <a class="reference external" href="https://www.biochem.cuimc.columbia.edu/">Department of Biochemistry and Molecular Biophysics</a>. I grew up on the Jersey Shore. As an undergraduate in the <a class="reference external" href="https://graciaslab.johnshopkins.edu/">Gracias Lab</a>, I built self-folding micro-structures. In graduate school, I studied nature’s most beautiful self-folding systems – proteins – in the <a class="reference external" href="https://dtelab.northwestern.edu/">DTE Lab</a> at UC Berkeley. For the last few years, I moved into computational biophysics to design new proteins for artifical functions as a postdoctoral fellow in the <a class="reference external" href="http://kortemmelab.ucsf.edu/">Kortemme Lab</a> at UCSF. I am so pumped to do protein science in NYC!!</p>
 </div>
 <div class="card-footer docutils">
 <p class="card-text">email: ag4522 [at] cumc [dot] columbia [dot] edu</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sphinx-bs container pb-4 docutils">
+<div class="row docutils">
+<div class="d-flex col-lg-12 p-2 docutils">
+<div class="card w-100 shadow docutils">
+<div class="card-header docutils">
+<p class="card-text">Julia Urban (she/her) | <em>Graduate student rotating with us!</em></p>
+</div>
+<div class="card-body docutils">
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/julia.jpeg"><img alt="julia" class="bg-primary mb-1 align-left" src="_images/julia.jpeg" style="width: 250px;" /></a>
+<p class="card-text">I am a PhD student in the Integrated Program in Cellular, Molecular, and Biomedical Studies Program at Columbia. I received my B.S. in Computational &amp; Applied Mathematics &amp; Statistics at William &amp; Mary, where I competed in the iGEM synthetic biology competition. I am interested in synthetic biology and protein engineering.</p>
+</div>
+<div class="card-footer docutils">
+<p class="card-text">email: jau2112 [at] cumc [dot] columbia [dot] edu</p>
 </div>
 </div>
 </div>
@@ -276,7 +292,7 @@ We are excited to have you.
     {
         requestKernel: true,
         binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
+            repo: "anumazam/anumazam.github.io",
             ref: "master",
         },
         codeMirrorConfig: {
