@@ -11,6 +11,7 @@
 
 # News
 
+````{div} full-width
 **7/2/2023** It's summer!
 
 We have a lot to celebrate:
@@ -119,3 +120,4 @@ Some updates:
 
 We're excited to go hard this summer to advance our ongoing basic science, applied, and methods development research projects!
 
+```` 
